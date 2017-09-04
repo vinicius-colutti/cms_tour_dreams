@@ -1,0 +1,568 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+header {
+  width: 100%;
+  height: 300px;
+   -webkit-box-shadow: 0px 10px 5px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 10px 5px -5px rgba(0,0,0,0.75);
+box-shadow: 0px 10px 5px -5px rgba(0,0,0,0.75);
+ }
+  header #principal_header {
+    width: 1400px;
+    height: 300px;
+    margin: auto;
+
+
+
+   }
+    header #principal_header #logo_cms {
+      width: 300px;
+      height: 300px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      position: absolute;
+      margin-left: 5px;
+      margin-top: -50px;
+     }
+      header #principal_header #logo_cms img {
+        width: 300px;
+        height: 300px; }
+
+p {
+  font-family: 300px; }
+
+#div_seja_bem_vindo{
+  width: 300px;
+  height: 25px;
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 230px;
+
+}
+#div_seja_bem_vindo p{
+  font-family: Calibri;
+  font-size: 18px;
+  color: #000;
+  margin-bottom: 10px;
+  opacity: 0.8;
+  font-style: italic;
+
+}
+#div_seja_bem_vindo a{
+  font-family: Calibri;
+  font-size: 20px;
+  color: #4682B4;
+  text-decoration: none;
+
+
+
+}
+#adm_usuarios{
+  width:200px;
+  height: 200px;
+  position: absolute;
+  background-color: #000;
+  margin-left: 500px;
+  margin-top: 50px;
+
+}
+#cores_aspectos{
+  width:200px;
+  height: 200px;
+  position: absolute;
+  background-color: #000;
+  margin-left: 800px;
+  margin-top: 50px;
+
+
+
+}
+#cores_aspectos img, #adm_usuarios img, #adm_estatisticas img{
+  width: 200px;
+  height: 200px;
+
+
+}
+#cores_aspectos:hover, #adm_usuarios:hover, #adm_estatisticas:hover{
+  border-bottom: 4px solid #000;
+
+
+
+}
+#adm_estatisticas{
+  width:200px;
+  height: 200px;
+  position: absolute;
+  background-color: #000;
+  margin-left: 1100px;
+  margin-top: 50px;
+
+
+}
+#section_home{
+  margin: auto;
+  width: 1200px;
+  margin-top: 20px;
+  height: 700px;
+  overflow: hidden;
+
+
+
+}
+#principal_home{
+  width: 1200px;
+  height: 700px;
+  position: absolute;
+  margin-top: 200px;
+  margin: auto;
+
+}
+.options{
+  width:250px;
+  height: 250px;
+  float: left;
+  margin-top: 35px;
+  margin-left: 130px;
+  margin-bottom: 90px;
+
+}
+.options img{
+  width: 200px;
+  height: 200px;
+border:4px solid #999;
+transition:1s;
+border-radius: 5px;
+}
+.options:hover img{
+
+  border:4px solid #000;
+  transition:1s;
+  background-color: #DCDCDC;
+
+
+
+}
+footer{
+  width: 100%;
+  height: 150px;
+  background-color: red;
+
+
+}
+#principal_footer{
+  width: 1790px;
+  height: 160px;
+  margin: auto;
+  background-color: #d2d3e2;
+
+
+}
+#logo_td{
+  width: 150px;
+  height: 150px;
+  margin-left: 820px;
+
+  position: absolute;
+
+
+}
+
+#logo_td img{
+  width: 150px;
+  height: 150px;
+
+
+
+}
+#contate_zto{
+  width: 400px;
+  height: 30px;
+  margin-left: 700px;
+  margin-top: 130px;
+
+  position: absolute;
+
+
+}
+#contate_zto p{
+  font-family: Calibri;
+  font-size: 17px;
+  color: #000;
+  text-align: center;
+
+}
+span{
+font-family:Calibri;
+font-size: 20px;
+
+
+}
+
+
+#section_empresa{
+  margin: auto;
+  width: 1200px;
+  margin-top: 20px;
+  height: 5000px;
+
+}
+#principal_sobre_empresa{
+  width: 1200px;
+  margin: auto;
+  height: 5000px;
+
+
+
+}
+#sobre_nossa_empresa{
+  width: 800px;
+  height: 500px;
+  background-color: #fff;
+  margin-left: 200px;
+  float: left;
+  margin-bottom: 70px;
+
+}
+
+.txt_sobre_nosssa_empresa{
+width: 800px;
+height: 70px;
+
+}
+
+.txt_sobre_nosssa_empresa p{
+  font-family: Calibri;
+  color: #000;
+  font-size: 50px;
+  opacity: 0.7;
+  text-align: center;
+
+}
+#txt_sobre_nosssa_empresa_slider{
+width: 800px;
+height: 70px;
+margin-bottom: 40px;
+border-top:1px solid #708090;
+
+}
+
+#txt_sobre_nosssa_empresa_slider p{
+  font-family: Calibri;
+  color: #000;
+  font-size: 50px;
+  opacity: 0.7;
+  text-align: center;
+
+
+
+}
+.txt_sobre_nosssa_empresa textarea{
+  resize: none;
+  border: 1px black solid;
+  font-size: 30px;
+  font-family: Calibri;
+  width: 800px;
+  height: 420px;
+  overflow: auto;
+  background-color: #DCDCDC;
+  
+
+
+
+
+}
+input:focus, button:focus, textarea:focus, select:focus {
+   box-shadow: 0 0 0 0;
+   border: 0 none;
+   outline: 0;
+}
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+p, ol, #message {
+     font-family:'Open Sans';
+}
+#multiple_upload {
+      position:relative;
+      margin-top: 20px;
+}
+#uploadChange {
+      position:absolute;
+      top:2px;
+      left:0;
+      opacity:0.01;
+      border:none;
+      width:355px;
+      padding:10px;
+      z-index:1;
+      cursor:pointer
+}
+#message {
+      border:2px solid #ccc;
+      background:#fff;
+      padding:10px;
+      width:250px;
+      float:left;
+      margin:4px;
+      overflow:hidden;
+      color: #333;
+}
+#botao {
+      border:1px solid #808080;
+      background:#A9A9A9;
+      color:#ffffff;
+      font-family:'Open Sans';
+      font-size:15px;
+      font-weight:bold;
+      padding:12px 28px;
+      margin:4px 8px;
+}
+#multiple_upload:hover > #botao {
+      background:#696969;
+      border-color:#696969;
+}
+#lista ol {
+      margin-left: -16px;
+}
+#lista ol li {
+     border-bottom:1px solid #eee;
+     padding:10px;
+    display:block;
+    clear:left;
+    margin-bottom:2px;
+}
+#lista ol li.item_grey{
+     background:#fff;
+}
+a.remove {
+     text-decoration:none;
+     color:#708090;
+     display:block;
+     font-size: 16px;
+     width:20px;
+     float:right;
+     font-weight:bold;
+}
+a.remove:hover {
+    color:#FF0000;
+}
+img.item {
+
+
+}
+img.item {
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+.box-images {
+    height: 30px;
+    width: 30px;
+    background-color: #eee;
+    border:1px solid #eee;
+    margin-bottom:15px;
+
+    /* Centralizando imagens */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float:left;
+    margin:0 10px 20px 0;
+}
+
+#select_sobre{
+  width: 1200px;
+  height: 700px;
+  float: left;
+  margin-bottom: 70px;
+  overflow: auto;
+  margin-top: 40px;
+
+}
+#txt_select_sobre{
+  width: 700px;
+  height: 30px;
+  float: left;
+  margin-left: 253px;
+  margin-bottom: 20px;
+}
+#txt_select_sobre p{
+  font-family: Calibri;
+  font-size:40px;
+  opacity: 0.8;
+  text-align: center;
+
+}
+.textos_sobre{
+  width: 210px;
+  height: 200px;
+  float: left;
+  margin-left: 30px;
+  margin-top: 10px;
+  border-right: 2px solid #000;
+
+}
+
+.textos_sobre p{
+  font-family: Calibri;
+  font-size: 24px;
+  color: #000;
+  text-align: center;
+  opacity: 0.8;
+  font-style: italic;
+
+
+
+}
+.textos_opc{
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-left: 30px;
+  background-color: #fff;
+  float: left;
+  margin-top: 10px;
+
+
+}
+
+.opc_txt{
+  width: 85px;
+  height: 85px;
+  margin-left: 10px;
+  float: left;
+  margin-bottom: 1px;
+  margin-top: 10px;
+
+
+}
+.opc_txt img{
+  width: 80px;
+  height: 80px;
+
+
+
+}
+
+#separatoria_sobre{
+width: 1160px;
+float: left;
+height: 4px;
+background-color: rgba(0, 0, 0, 0.6);
+margin-top: 10px;
+margin-left: 27px;
+
+}
+#div_btn_salvar{
+  width: 803px;
+  height: 100px;
+  float: left;
+  background-color: blue;
+  margin-left: 198px;
+  margin-bottom: 90px;
+
+}
+#btn_salvar_sobre{
+    width: 803px;
+    height: 100px;
+    border: 0;
+    font-family: Calibri;
+    font-size: 40px;
+    background-color: #708090;
+    transition: 1s;
+
+
+}
+#btn_salvar_sobre:hover{
+  color:#fff;
+  transition: 1s;
+
+
+
+}
+
+#select_imagens_sobre{
+  width: 800px;
+  height: 500px;
+  float: left;
+  margin-bottom: 30px;
+  margin-left: 200px;
+  overflow: auto;
+
+
+
+
+}
+
+.img_sobre_a_empresa{
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  float: left;
+  margin-top: 20px;
+  margin-left:50px;
+  -webkit-box-shadow: -1px -1px 5px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px -1px 5px 2px rgba(0,0,0,0.75);
+box-shadow: -1px -1px 5px 2px rgba(0,0,0,0.75);
+
+}
+.img_sobre_a_empresa img{
+  width: 200px;
+  height: 200px;
+
+
+
+}
+.excluir_img_sobre{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  background-color: #000;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: 1s;
+
+
+}
+.excluir_img_sobre img{
+  width: 150px;
+  height: 150px;
+  margin-left: 25px;
+  margin-top: 30px;
+  opacity: 0.7;
+
+
+
+}
+
+.img_sobre_a_empresa:hover .excluir_img_sobre{
+  opacity: 1;
+  transition: 1s;
+
+
+
+}
+#menu_ancora{
+position: fixed;
+width: 290px;
+height: 300px;
+background-color:transparent;
+
+}
+#menu_ancora a{
+  text-decoration: none;
+  font-size: 30px;
+  font-family: Calibri;
+  opacity: 0.7;
+  color: #000;
+
+}
+#menu_ancora a:hover{
+  font-size: 32px;
+  transition: 0.2s;
+  opacity: 1;
+
+
+
+}
